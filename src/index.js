@@ -29,7 +29,7 @@ export default class extends Component {
     const { modalOpen } = this.state;
 
     return (
-      <div>
+      <>
         <img
           className={className}
           style={{
@@ -54,7 +54,7 @@ export default class extends Component {
             imageBackgroundColor={imageBackgroundColor}
           />
         )}
-      </div>
+      </>
     );
   }
 }
